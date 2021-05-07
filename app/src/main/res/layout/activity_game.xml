@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/square1"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/square2"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/square1"
+                app:layout_constraintRight_toLeftOf="@+id/square3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/square3"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/square4"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/square5"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/square4"
+                app:layout_constraintRight_toLeftOf="@+id/square6"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/square6"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/square7"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/square8"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/square7"
+                app:layout_constraintRight_toLeftOf="@+id/square9"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/square9"
+                android:backgroundTint="@color/colorSquare"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:textSize="500sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

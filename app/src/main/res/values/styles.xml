@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Message Theme -->
+    <style name="MessageStyle" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Used for the buttons (Only seems to work on newer Androids) -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+    </style>
+
+</resources>
