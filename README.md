@@ -17,5 +17,5 @@
 
 ## 📌 Noteworthy Files
 
-- `GameActivity.java` - **The Entry Point and file that contains Majority of the Code.**
-- `Square.java` - **A custom Class designed to Represent a Single Square in a 3x3 Grid.**
+- [`GameActivity.java`](/app/src/main/java/coursework/paul/mynoughtscrosses/GameActivity.java) - **The Entry Point and file that contains Majority of the Code.**
+- [`Square.java`](/app/src/main/java/coursework/paul/mynoughtscrosses/Square.java) - **A custom Class designed to Represent a Single Square in a 3x3 Grid.**
